@@ -7,7 +7,7 @@ import SectionHeading from "@/components/SectionHeading";
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="lg:scroll-mt-24">
+    <section id="projects" className="mb-16 lg:scroll-mt-24">
       <SectionHeading>Projects</SectionHeading>
       <ul>
         <li className="mb-12">
