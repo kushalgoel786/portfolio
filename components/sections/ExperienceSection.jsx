@@ -3,12 +3,14 @@ import CardBodyList from "@/components/card/CardBodyList";
 import CardSkillsList from "@/components/card/CardSkillsList";
 import CardSkill from "@/components/card/CardSkill";
 import Card from "@/components/card/Card";
+import SectionHeading from "@/components/SectionHeading";
 
 const ExperienceSection = () => {
   return (
     <section
       id="experience"
       className="mb-16 lg:mb-36 md:mb-24 lg:scroll-mt-24">
+      <SectionHeading>Experience</SectionHeading>
       <ol>
         <li>
           <Card>

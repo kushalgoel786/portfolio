@@ -3,10 +3,12 @@ import CardBodyList from "@/components/card/CardBodyList";
 import CardSkillsList from "@/components/card/CardSkillsList";
 import CardSkill from "@/components/card/CardSkill";
 import Card from "@/components/card/Card";
+import SectionHeading from "@/components/SectionHeading";
 
 const ProjectsSection = () => {
   return (
     <section id="projects" className="lg:scroll-mt-24">
+      <SectionHeading>Projects</SectionHeading>
       <ul>
         <li className="mb-12">
           <Card>

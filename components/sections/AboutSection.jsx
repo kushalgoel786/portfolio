@@ -1,8 +1,10 @@
 import { BsArrowRight } from "react-icons/bs";
+import SectionHeading from "@/components/SectionHeading";
 
 const AboutSection = () => {
   return (
     <section id="about" className="lg:mb-36 md:mb-24 mb-16 lg:scroll-mt-24">
+      <SectionHeading>About</SectionHeading>
       <div>
         <p className="mb-4">
           I&apos;m currently a sophomore at the
