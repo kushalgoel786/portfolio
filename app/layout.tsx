@@ -16,20 +16,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon/favicon-16x16.png"
-        />
-      </head>
       <body
         className={`bg-slate-900 text-slate-400 selection:bg-teal-300 selection:text-teal-900 ${inter.className} `}>
         {children}
