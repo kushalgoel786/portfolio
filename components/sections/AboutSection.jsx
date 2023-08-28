@@ -1,3 +1,5 @@
+import { BsArrowRight } from "react-icons/bs";
+
 const AboutSection = () => {
   return (
     <section id="about" className="lg:mb-36 md:mb-24 mb-16 lg:scroll-mt-24">
@@ -16,12 +18,18 @@ const AboutSection = () => {
           internships.
         </p>
         <p className="mb-4">
-          In my latest work experience, which was a co-op/internship at
-          PayNearby as a Backend Software Developer, I was a part of the
-          authentication team and was responsible for rebuilding
-          PayNearby&apos;s authentication system. I worked in Java and Spring
-          Boot consolidating multiple APIs into a single microservice, resulting
-          in a 90% improvement in authentication time and response speed.
+          In my latest work experience, which was a co-op (internship) at
+          <a
+            href="https://paynearby.in/"
+            target="_blank"
+            className="font-medium text-slate-200 hover:text-teal-300">
+            &nbsp;PayNearby&nbsp;
+          </a>
+          as a Backend Software Developer, I was a part of the authentication
+          team and was responsible for rebuilding PayNearby&apos;s
+          authentication system. I worked in Java and Spring Boot consolidating
+          multiple APIs into a single microservice, resulting in a 90%
+          improvement in authentication time and response speed.
         </p>
         <p>
           I have mentored over 200 students to learn to code, specifically
@@ -31,11 +39,12 @@ const AboutSection = () => {
       </div>
       <div className="mt-12">
         <a
-          className="font-semibold leading-tight text-slate-200"
+          className="font-semibold leading-tight text-slate-200 flex items-center"
           href="/resume.pdf">
           <span className="border-b pb-px border-transparent hover:border-teal-300 transition">
-            View Full Resume
+            View Full Résumé
           </span>
+          <BsArrowRight className="inline-block ml-1 h-4 w-4" />
         </a>
       </div>
     </section>

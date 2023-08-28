@@ -1,19 +1,20 @@
 import CardHeading from "@/components/card/CardHeading";
 import CardBodyList from "@/components/card/CardBodyList";
 import CardSkillsList from "@/components/card/CardSkillsList";
-import CardSkillsItem from "@/components/card/CardSkillsItem";
+import CardSkill from "@/components/card/CardSkill";
+import Card from "@/components/card/Card";
 
 const ProjectsSection = () => {
   return (
     <section id="projects" className="lg:scroll-mt-24">
       <ul>
         <li className="mb-12">
-          <div className="grid sm:grid-cols-4">
-            <div className="sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
+          <Card>
+            <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
               July 2023
             </div>
             {/* <div className="sm:col-span-1">Image</div> */}
-            <div className="sm:col-span-3">
+            <div className="z-10 sm:col-span-3">
               <CardHeading>CloudX</CardHeading>
               <CardBodyList>
                 <li>
@@ -37,27 +38,27 @@ const ProjectsSection = () => {
                 </li>
               </CardBodyList>
               <CardSkillsList>
-                <CardSkillsItem>JavaScript</CardSkillsItem>
-                <CardSkillsItem>Express.js</CardSkillsItem>
-                <CardSkillsItem>NodeJS</CardSkillsItem>
-                <CardSkillsItem>React</CardSkillsItem>
-                <CardSkillsItem>React Router</CardSkillsItem>
-                <CardSkillsItem>Sequelize</CardSkillsItem>
-                <CardSkillsItem>PostgreSQL</CardSkillsItem>
-                <CardSkillsItem>TailwindCSS</CardSkillsItem>
-                <CardSkillsItem>Axios</CardSkillsItem>
-                <CardSkillsItem>Google Cloud</CardSkillsItem>
+                <CardSkill>JavaScript</CardSkill>
+                <CardSkill>Express.js</CardSkill>
+                <CardSkill>NodeJS</CardSkill>
+                <CardSkill>React</CardSkill>
+                <CardSkill>React Router</CardSkill>
+                <CardSkill>Sequelize</CardSkill>
+                <CardSkill>PostgreSQL</CardSkill>
+                <CardSkill>TailwindCSS</CardSkill>
+                <CardSkill>Axios</CardSkill>
+                <CardSkill>Google Cloud</CardSkill>
               </CardSkillsList>
             </div>
-          </div>
+          </Card>
         </li>
         <li className="mb-12">
-          <div className="grid sm:grid-cols-4">
-            <div className="sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
+          <Card>
+            <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
               June 2023
             </div>
             {/* <div className="sm:col-span-1">Photo</div> */}
-            <div className="sm:col-span-3">
+            <div className="z-10 sm:col-span-3">
               <CardHeading>Investo</CardHeading>
               <CardBodyList>
                 <li>
@@ -70,11 +71,11 @@ const ProjectsSection = () => {
                 </li>
               </CardBodyList>
               <CardSkillsList>
-                <CardSkillsItem>Python</CardSkillsItem>
-                <CardSkillsItem>FastAPI</CardSkillsItem>
+                <CardSkill>Python</CardSkill>
+                <CardSkill>FastAPI</CardSkill>
               </CardSkillsList>
             </div>
-          </div>
+          </Card>
         </li>
       </ul>
     </section>

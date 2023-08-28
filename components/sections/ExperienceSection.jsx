@@ -1,7 +1,8 @@
 import CardHeading from "@/components/card/CardHeading";
 import CardBodyList from "@/components/card/CardBodyList";
 import CardSkillsList from "@/components/card/CardSkillsList";
-import CardSkillsItem from "@/components/card/CardSkillsItem";
+import CardSkill from "@/components/card/CardSkill";
+import Card from "@/components/card/Card";
 
 const ExperienceSection = () => {
   return (
@@ -10,11 +11,11 @@ const ExperienceSection = () => {
       className="mb-16 lg:mb-36 md:mb-24 lg:scroll-mt-24">
       <ol>
         <li>
-          <div className="grid sm:grid-cols-4">
-            <div className="sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
+          <Card>
+            <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
               May - Aug 2023
             </div>
-            <div className="sm:col-span-3">
+            <div className="z-10 sm:col-span-3">
               <CardHeading>
                 Backend Software Engineer Intern · PayNearby
               </CardHeading>
@@ -44,19 +45,19 @@ const ExperienceSection = () => {
                 </li>
               </CardBodyList>
               <CardSkillsList>
-                <CardSkillsItem>Java</CardSkillsItem>
-                <CardSkillsItem>Spring Boot</CardSkillsItem>
-                <CardSkillsItem>REST APIs</CardSkillsItem>
-                <CardSkillsItem>MySQL</CardSkillsItem>
-                <CardSkillsItem>Jenkins</CardSkillsItem>
-                <CardSkillsItem>AWS</CardSkillsItem>
-                <CardSkillsItem>JUnit</CardSkillsItem>
-                <CardSkillsItem>Git</CardSkillsItem>
-                <CardSkillsItem>Ubuntu</CardSkillsItem>
-                <CardSkillsItem>Agile SDLC</CardSkillsItem>
+                <CardSkill>Java</CardSkill>
+                <CardSkill>Spring Boot</CardSkill>
+                <CardSkill>REST APIs</CardSkill>
+                <CardSkill>MySQL</CardSkill>
+                <CardSkill>Jenkins</CardSkill>
+                <CardSkill>AWS</CardSkill>
+                <CardSkill>JUnit</CardSkill>
+                <CardSkill>Git</CardSkill>
+                <CardSkill>Ubuntu</CardSkill>
+                <CardSkill>Agile SDLC</CardSkill>
               </CardSkillsList>
             </div>
-          </div>
+          </Card>
         </li>
       </ol>
     </section>

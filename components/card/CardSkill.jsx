@@ -1,4 +1,4 @@
-const CardSkillsItem = ({ children }) => {
+const CardSkill = ({ children }) => {
   return (
     <li className="mr-1.5 mt-2">
       {/* flex items-center on div */}
@@ -8,4 +8,4 @@ const CardSkillsItem = ({ children }) => {
     </li>
   );
 };
-export default CardSkillsItem;
+export default CardSkill;
