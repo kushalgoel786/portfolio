@@ -7,7 +7,7 @@ const ExternalLinks = () => {
       <li className="mr-5">
         <a
           href="mailto:kushalgoel786@gmail.com"
-          className="hover:text-slate-200"
+          className="hover:text-slate-200 transition"
           target="_blank">
           <BsEnvelopeAtFill className="h-6 w-6" />
         </a>
@@ -15,7 +15,7 @@ const ExternalLinks = () => {
       <li className="mr-5">
         <a
           href="https://github.com/kushalgoel786"
-          className="hover:text-slate-200"
+          className="hover:text-slate-200 transition"
           target="_blank">
           <BsGithub className="h-6 w-6" />
         </a>
@@ -24,7 +24,7 @@ const ExternalLinks = () => {
       <li>
         <a
           href="https://www.linkedin.com/in/kushal-goel/"
-          className="hover:text-slate-200"
+          className="hover:text-slate-200 transition"
           target="_blank">
           <BsLinkedin className="h-6 w-6" />
         </a>
