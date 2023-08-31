@@ -36,7 +36,14 @@ const AboutSection = () => {
         <p>
           I have mentored over 200 students to learn to code, specifically
           building cross-platform mobile applications using Flutter and Dart. I
-          also run a blog on App Development with 300+ monthly views.
+          also run a
+          <a
+            href="https://medium.com/flutterfever"
+            target="_blank"
+            className="font-medium text-slate-200 hover:text-teal-300">
+            &nbsp;blog&nbsp;
+          </a>
+          on App Development with 300+ monthly views.
         </p>
       </div>
       <div className="mt-12">
