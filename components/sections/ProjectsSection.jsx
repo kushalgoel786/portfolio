@@ -79,6 +79,33 @@ const ProjectsSection = () => {
             </div>
           </Card>
         </li>
+        <li className="mb-12">
+          <Card>
+            <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
+              Dec 2022
+            </div>
+            {/* <div className="sm:col-span-1">Photo</div> */}
+            <div className="z-10 sm:col-span-3">
+              <CardHeading>YouTube Shorts to Video Player</CardHeading>
+              <CardBodyList>
+                <li>
+                  Designed a browser extension to enhance user functionality
+                  while watching YouTube shorts.
+                </li>
+                <li>
+                  Facilitated playback controls by redirecting to the video
+                  player, addressing limitations in rewinding and skipping.
+                </li>
+              </CardBodyList>
+              <CardSkillsList>
+                <CardSkill>JavaScript</CardSkill>
+                <CardSkill>Chrome APIs</CardSkill>
+                <CardSkill>HTML</CardSkill>
+                <CardSkill>CSS</CardSkill>
+              </CardSkillsList>
+            </div>
+          </Card>
+        </li>
       </ul>
     </section>
   );
