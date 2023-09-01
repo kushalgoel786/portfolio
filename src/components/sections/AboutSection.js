@@ -51,12 +51,12 @@ const AboutSection = ({ reference }) => {
       </div>
       <div className="mt-12">
         <a
-          className="font-semibold leading-tight text-slate-200 flex items-center"
+          className="group font-semibold leading-tight text-slate-200 inline-flex items-center"
           href="/resume.pdf">
-          <span className="border-b pb-px border-transparent hover:border-teal-300 transition">
+          <span className="border-b pb-px border-transparent group-hover:border-teal-300 transition">
             View Full Résumé
           </span>
-          <BsArrowRight className="inline-block ml-1 h-4 w-4" />
+          <BsArrowRight className="transition inline-block ml-1 h-4 w-4 group-hover:translate-x-2" />
         </a>
       </div>
     </section>
