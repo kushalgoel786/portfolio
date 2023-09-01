@@ -5,9 +5,9 @@ import CardSkill from "@/components/card/CardSkill";
 import Card from "@/components/card/Card";
 import SectionHeading from "@/components/SectionHeading";
 
-const ProjectsSection = () => {
+const ProjectsSection = ({ reference }) => {
   return (
-    <section id="projects" className="mb-16 lg:scroll-mt-24">
+    <section id="projects" ref={reference} className="mb-16 lg:scroll-mt-24">
       <SectionHeading>Projects</SectionHeading>
       <ul>
         <li className="mb-12">

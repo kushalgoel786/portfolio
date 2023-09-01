@@ -1,9 +1,12 @@
 import { BsArrowRight } from "react-icons/bs";
 import SectionHeading from "@/components/SectionHeading";
 
-const AboutSection = () => {
+const AboutSection = ({ reference }) => {
   return (
-    <section id="about" className="lg:mb-36 md:mb-24 mb-16 lg:scroll-mt-24">
+    <section
+      id="about"
+      ref={reference}
+      className="lg:mb-36 md:mb-24 mb-16 lg:scroll-mt-24">
       <SectionHeading>About</SectionHeading>
       <div>
         <p className="mb-4">

@@ -5,10 +5,11 @@ import CardSkill from "@/components/card/CardSkill";
 import Card from "@/components/card/Card";
 import SectionHeading from "@/components/SectionHeading";
 
-const ExperienceSection = () => {
+const ExperienceSection = ({ reference }) => {
   return (
     <section
       id="experience"
+      ref={reference}
       className="mb-16 lg:mb-36 md:mb-24 lg:scroll-mt-24">
       <SectionHeading>Experience</SectionHeading>
       <ol>

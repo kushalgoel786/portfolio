@@ -1,3 +1,5 @@
+"use client";
+
 import ExternalLinks from "@/components/ExternalLinks";
 import MainHeader from "@/components/MainHeader";
 import Navbar from "@/components/nav/Navbar";
@@ -7,7 +9,35 @@ import ExperienceSection from "@/components/sections/ExperienceSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import SecretSection from "@/components/sections/SecretSection";
 
+import React, { useRef } from "react";
+import { useInViewport } from "react-in-viewport";
+
 export default function Home() {
+  const aboutSectionRef = useRef();
+  const experienceSectionRef = useRef();
+  const projectsSectionRef = useRef();
+
+  const { inViewport: aboutSectionInViewport } = useInViewport(
+    aboutSectionRef,
+    { disconnectOnLeave: false }
+    // options,
+    // (config = { disconnectOnLeave: false })
+    // props
+  );
+
+  const { inViewport: experienceSectionInViewport } = useInViewport(
+    experienceSectionRef,
+    {
+      disconnectOnLeave: false,
+    }
+  );
+  const { inViewport: projectsSectionInViewport } = useInViewport(
+    projectsSectionRef,
+    {
+      disconnectOnLeave: false,
+    }
+  );
+
   return (
     <div className="min-h-screen mx-auto max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4">
@@ -16,17 +46,34 @@ export default function Home() {
             <MainHeader />
             <Navbar>
               {/* /# or # ? */}
-              <NavLink to="#about">About</NavLink>
-              <NavLink to="#experience">Experience</NavLink>
-              <NavLink to="#projects">Projects</NavLink>
+              <NavLink to="#about" inViewport={aboutSectionInViewport}>
+                About
+              </NavLink>
+              <NavLink
+                to="#experience"
+                inViewport={
+                  !aboutSectionInViewport && experienceSectionInViewport
+                }>
+                Experience
+              </NavLink>
+              <NavLink
+                to="#projects"
+                inViewport={
+                  !aboutSectionInViewport &&
+                  !experienceSectionInViewport &&
+                  projectsSectionInViewport
+                }>
+                Projects
+              </NavLink>
             </Navbar>
           </div>
           <ExternalLinks />
         </header>
         <main id="content" className="pt-20 lg:py-24 lg:w-1/2">
-          <AboutSection />
-          <ExperienceSection />
-          <ProjectsSection />
+          {/* forwardref */}
+          <AboutSection reference={aboutSectionRef} />
+          <ExperienceSection reference={experienceSectionRef} />
+          <ProjectsSection reference={projectsSectionRef} />
           <SecretSection />
         </main>
       </div>
