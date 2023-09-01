@@ -5,7 +5,7 @@ import NavLink from "@/components/nav/NavLink";
 import AboutSection from "@/components/sections/AboutSection";
 import ExperienceSection from "@/components/sections/ExperienceSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
-import SecretSection from "@/components/sections/SecretSection"
+import SecretSection from "@/components/sections/SecretSection";
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
           <AboutSection />
           <ExperienceSection />
           <ProjectsSection />
-          <SecretSection/>
+          <SecretSection />
         </main>
       </div>
     </div>

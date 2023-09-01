@@ -2,6 +2,8 @@
 
 Built with [Next.js](https://nextjs.org/).
 
+Deployed on Vercel
+
 ## Getting Started
 
 First, run the development server:
