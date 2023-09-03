@@ -12,7 +12,7 @@ const SecretSection = () => {
         setVisible(!isVisible);
       }}
       className={`${isVisible ? "opacity-100" : "opacity-0"}
-      ${kalam.className} text-5xl flex justify-center select-none`}>
+      ${kalam.className} mb-16 text-5xl flex justify-center select-none`}>
       जय श्री राम
     </div>
   );

@@ -8,6 +8,7 @@ import AboutSection from "@/components/sections/AboutSection";
 import ExperienceSection from "@/components/sections/ExperienceSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import SecretSection from "@/components/sections/SecretSection";
+import Footer from "@/components/Footer";
 
 import React, { useRef } from "react";
 import { useInViewport } from "react-in-viewport";
@@ -75,6 +76,7 @@ export default function Home() {
           <ExperienceSection reference={experienceSectionRef} />
           <ProjectsSection reference={projectsSectionRef} />
           <SecretSection />
+          <Footer />
         </main>
       </div>
     </div>
