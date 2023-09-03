@@ -37,7 +37,7 @@ const Footer = () => {
           class="font-medium text-slate-400 hover:text-teal-300">
           &nbsp;Inter&nbsp;
         </a>
-        typeface. Inspired by Brittany Chiang's
+        typeface. Inspired by Brittany Chiang&apos;s
         <a
           href="https://brittanychiang.com/"
           target="_blank"
