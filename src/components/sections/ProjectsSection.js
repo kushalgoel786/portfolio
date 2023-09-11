@@ -17,7 +17,9 @@ const ProjectsSection = ({ reference }) => {
             </div>
             {/* <div className="sm:col-span-1">Image</div> */}
             <div className="z-10 sm:col-span-3">
-              <CardHeading>CloudX</CardHeading>
+              <CardHeading href="https://cloud-x.vercel.app/">
+                CloudX
+              </CardHeading>
               <CardBodyList>
                 <li>
                   Developed a feature-rich file storage and sharing platform
@@ -61,7 +63,9 @@ const ProjectsSection = ({ reference }) => {
             </div>
             {/* <div className="sm:col-span-1">Photo</div> */}
             <div className="z-10 sm:col-span-3">
-              <CardHeading>Investo</CardHeading>
+              <CardHeading href="https://investo-1-c6704315.deta.app/">
+                Investo
+              </CardHeading>
               <CardBodyList>
                 <li>
                   Built a web application using FastAPI (Python) to fetch and
