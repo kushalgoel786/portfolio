@@ -86,7 +86,7 @@ const ProjectsSection = ({ reference }) => {
         <li className="mb-12">
           <Card>
             <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
-              Dec 2022
+              May 2023
             </div>
             {/* <div className="sm:col-span-1">Photo</div> */}
             <div className="z-10 sm:col-span-3">
