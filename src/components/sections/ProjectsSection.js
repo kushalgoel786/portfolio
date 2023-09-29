@@ -90,7 +90,9 @@ const ProjectsSection = ({ reference }) => {
             </div>
             {/* <div className="sm:col-span-1">Photo</div> */}
             <div className="z-10 sm:col-span-3">
-              <CardHeading>YouTube Shorts to Video Player</CardHeading>
+              <CardHeading href="https://chrome.google.com/webstore/detail/youtube-shorts-to-video-p/dldgokjmoecpkdfdoniidbjaoginamko?hl=en-GB&authuser=0">
+                YouTube Shorts to Video Player
+              </CardHeading>
               <CardBodyList>
                 <li>
                   Designed a browser extension to enhance user functionality
