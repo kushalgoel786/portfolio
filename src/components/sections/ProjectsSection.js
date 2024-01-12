@@ -13,7 +13,7 @@ const ProjectsSection = ({ reference }) => {
         <li className="mb-12">
           <Card>
             <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
-              July 2023
+              Jul - Aug 2023
             </div>
             {/* <div className="sm:col-span-1">Image</div> */}
             <div className="z-10 sm:col-span-3">
@@ -59,7 +59,7 @@ const ProjectsSection = ({ reference }) => {
         <li className="mb-12">
           <Card>
             <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
-              June 2023
+              May - Jun 2023
             </div>
             {/* <div className="sm:col-span-1">Photo</div> */}
             <div className="z-10 sm:col-span-3">
@@ -86,7 +86,7 @@ const ProjectsSection = ({ reference }) => {
         <li className="mb-12">
           <Card>
             <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
-              May 2023
+              Apr 2023
             </div>
             {/* <div className="sm:col-span-1">Photo</div> */}
             <div className="z-10 sm:col-span-3">
