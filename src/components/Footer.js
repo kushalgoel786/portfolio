@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="max-w-md text-sm text-slate-500 sm:pb-0 pb-16">
@@ -32,7 +34,13 @@ const Footer = () => {
           &nbsp;portfolio
         </a>
         .
-        <br /> Made with &hearts; by Kushal Goel.
+        <br /> Made with &hearts; by&nbsp;
+        <Link
+          href="#about"
+          className="font-medium text-slate-400 hover:text-teal-300">
+          Kushal Goel
+        </Link>
+        .
       </p>
     </footer>
   );
