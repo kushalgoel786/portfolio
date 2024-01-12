@@ -23,21 +23,8 @@ const Footer = () => {
           target="_blank">
           &nbsp;Vercel
         </a>
-        . Made with &hearts; by Kushal Goel inside
-        <a
-          target="_blank"
-          href="https://code.visualstudio.com/"
-          className="font-medium text-slate-400 hover:text-teal-300">
-          &nbsp;Visual Studio Code
-        </a>
-        . All text is set in the
-        <a
-          href="https://rsms.me/inter/"
-          target="_blank"
-          className="font-medium text-slate-400 hover:text-teal-300">
-          &nbsp;Inter&nbsp;
-        </a>
-        typeface. Inspired by Brittany Chiang&apos;s
+        .
+        <br /> Inspired by Brittany Chiang&apos;s
         <a
           href="https://brittanychiang.com/"
           target="_blank"
@@ -45,6 +32,7 @@ const Footer = () => {
           &nbsp;portfolio
         </a>
         .
+        <br /> Made with &hearts; by Kushal Goel.
       </p>
     </footer>
   );
