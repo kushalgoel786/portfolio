@@ -24,27 +24,28 @@ const ExperienceSection = ({ reference }) => {
               </CardHeading>
               <CardBodyList>
                 <li>
-                  Revamped PayNearby&apos;s authentication infrastructure by
-                  consolidating multiple APIs into a single microservice written
-                  in Java, resulting in a remarkable 90% enhancement in
-                  authentication time and response speed.
+                  Revamped PayNearby&apos;s authentication infrastructure using
+                  Java and Spring Boot by consolidating scattered APIs into
+                  microservices, resulting in a 90% improvement in
+                  authentication time
                 </li>
                 <li>
-                  Contributed to the development of User Store API using
-                  Quarkus, adhering to OAuth 2.0 standards. Developed and
-                  conducted unit testing of the OTP Store API, covering 95% of
-                  the code.
+                  Contributed to the development of User Store API, adhering to
+                  OAuth 2.0 standards, to efficiently manage user data
                 </li>
                 <li>
-                  Ensured data security by implementing AES encryption for
-                  storing sensitive data in the database. Implemented a thread
-                  pool executor script for encrypting existing data.
+                  Developed the OTP Store API to generate, fetch, and verify
+                  one-time passwords and conducted thorough unit testing of the
+                  API using JUnit, covering 95% of the code
                 </li>
                 <li>
-                  Built a Java SDK client to consume APIs using HTTP connection
-                  pooling to improve scalability, resulting in handling 80% more
-                  concurrent database connections. Deployed using a CI/CD
-                  Jenkins pipeline.
+                  Ensured data security by implementing AES encryption using a
+                  thread pool for storing sensitive data in the database
+                </li>
+                <li>
+                  Built a Java SDK client to consume REST APIs using HTTP
+                  connection pooling, handling 80% more concurrent database
+                  connections and enhancing scalability
                 </li>
               </CardBodyList>
               <CardSkillsList>
