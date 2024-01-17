@@ -18,27 +18,26 @@ const ProjectsSection = ({ reference }) => {
             {/* <div className="sm:col-span-1">Image</div> */}
             <div className="z-10 sm:col-span-3">
               <CardHeading href="https://cloud-x.vercel.app/">
-                CloudX
+                CloudX · File Management Application
               </CardHeading>
               <CardBodyList>
                 <li>
-                  Developed a feature-rich file storage and sharing platform
-                  like Google Drive, using the MERN stack with a user-friendly
-                  and intuitive dashboard utilizing React components and React
-                  Router.
+                  Developed a feature-rich file storage and sharing app, with a
+                  user-friendly dashboard utilizing React and React Router
                 </li>
                 <li>
-                  Facilitated seamless file uploads and downloads using
-                  pre-signed URLs with temporary permissions, resulting in 50%
-                  faster data transfers and increased server efficiency.
+                  Facilitated seamless file uploads and downloads from Google
+                  Cloud Storage using pre-signed URLs with temporary
+                  permissions, resulting in 50% faster data transfers and
+                  increased server efficiency
                 </li>
                 <li>
                   Implemented robust user authentication using JWT tokens, HTTP
-                  cookies, and Bcrypt for hashing passwords.
+                  cookies, and Bcrypt for hashing passwords
                 </li>
                 <li>
                   Created RESTful API endpoints in Express.js, with PostgreSQL
-                  and Sequelize for data storage.
+                  and Sequelize ORM for data storage
                 </li>
               </CardBodyList>
               <CardSkillsList>
@@ -64,16 +63,20 @@ const ProjectsSection = ({ reference }) => {
             {/* <div className="sm:col-span-1">Photo</div> */}
             <div className="z-10 sm:col-span-3">
               <CardHeading href="https://investo-1-c6704315.deta.app/">
-                Investo
+                Investo · Mutual Funds Backend Application
               </CardHeading>
               <CardBodyList>
                 <li>
-                  Built a web application using FastAPI (Python) to fetch and
-                  analyze mutual fund data from an external API.
+                  Built a backend application to fetch and analyze data for over
+                  10,000 mutual fund schemes
                 </li>
                 <li>
-                  Created 10+ API endpoints to retrieve scheme information, and
-                  calculate returns through multiple techniques.
+                  Created multiple endpoints to retrieve scheme information
+                  spread over 10+ years with daily updates
+                </li>
+                <li>
+                  Calculated cumulative and absolute mutual fund returns for
+                  various years through multiple techniques
                 </li>
               </CardBodyList>
               <CardSkillsList>
@@ -91,21 +94,21 @@ const ProjectsSection = ({ reference }) => {
             {/* <div className="sm:col-span-1">Photo</div> */}
             <div className="z-10 sm:col-span-3">
               <CardHeading href="https://chrome.google.com/webstore/detail/youtube-shorts-to-video-p/dldgokjmoecpkdfdoniidbjaoginamko?hl=en-GB&authuser=0">
-                YouTube Shorts to Video Player
+                YouTube Shorts to Video Player · Chrome Extension
               </CardHeading>
               <CardBodyList>
                 <li>
-                  Designed a browser extension to enhance user functionality
-                  while watching YouTube shorts.
+                  Designed a Chrome extension with 200+ users to enhance user
+                  functionality while watching YouTube shorts
                 </li>
                 <li>
                   Facilitated playback controls by redirecting to the video
-                  player, addressing limitations in rewinding and skipping.
+                  player, addressing limitations in rewinding and skipping
                 </li>
               </CardBodyList>
               <CardSkillsList>
                 <CardSkill>JavaScript</CardSkill>
-                <CardSkill>Chrome APIs</CardSkill>
+                <CardSkill>Chrome Browser APIs</CardSkill>
                 <CardSkill>HTML</CardSkill>
                 <CardSkill>CSS</CardSkill>
               </CardSkillsList>
