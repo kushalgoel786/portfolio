@@ -13,6 +13,43 @@ const ProjectsSection = ({ reference }) => {
         <li className="mb-12">
           <Card>
             <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
+              Nov - Dec 2023
+            </div>
+            {/* <div className="sm:col-span-1">Image</div> */}
+            <div className="z-10 sm:col-span-3">
+              <CardHeading href="https://gitfront.io/r/kushalgoel/hNbiv2xv9QiV/raiinet/">
+                RAIInet · Board Game
+              </CardHeading>
+              <CardBodyList>
+                <li>
+                  Created a board game inspired by Stratego by applying
+                  object-oriented design and SOLID design principles
+                </li>
+                <li>
+                  Designed a highly optimized graphical display using the X11
+                  library, seamlessly integrating PNGs into the board
+                </li>
+                <li>
+                  Achieved a remarkable result of redrawing the board within
+                  less than 300 milliseconds after each move Integrated the
+                  Model View Controller and Observer design patterns to
+                  implement both text and graphical displays
+                </li>
+              </CardBodyList>
+              <CardSkillsList>
+                <CardSkill>C++</CardSkill>
+                <CardSkill>Xlib</CardSkill>
+                <CardSkill>Object Oriented Programming</CardSkill>
+                <CardSkill>SOLID</CardSkill>
+                <CardSkill>MVC</CardSkill>
+                <CardSkill>Design Patterns</CardSkill>
+              </CardSkillsList>
+            </div>
+          </Card>
+        </li>
+        <li className="mb-12">
+          <Card>
+            <div className="z-10 sm:col-span-1 uppercase mt-1 font-semibold tracking-wide text-xs text-slate-500">
               Jul - Aug 2023
             </div>
             {/* <div className="sm:col-span-1">Image</div> */}
